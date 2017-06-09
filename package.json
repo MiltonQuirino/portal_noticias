@@ -1,0 +1,24 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiltonQuirino/portal_noticias.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "MongoDB",
+    "Express"
+  ],
+  "author": "Milton Quirino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiltonQuirino/portal_noticias/issues"
+  },
+  "homepage": "https://github.com/MiltonQuirino/portal_noticias#readme"
+}
