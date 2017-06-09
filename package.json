@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/MiltonQuirino/portal_noticias#readme",
   "dependencies": {
+    "consign": "^0.1.5",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
     "mysql": "^2.13.0"
