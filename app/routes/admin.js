@@ -5,7 +5,9 @@ module.exports = function (app) {
   });
 
   app.post('/noticias/salvar', function(req, res){
-    res.send('connected');
+    var noticias = req.body;
+    console.log(noticias);
+    res.send(noticias);
   });
 
 };
