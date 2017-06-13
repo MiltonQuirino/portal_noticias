@@ -12,14 +12,27 @@
 		<form action="/noticias/salvar" method="POST">
 
 			<label for="titulo">Titulo</label>
-			<input type="text" name="titulo" id="titulo" placeholder="Titulo da noticia">
+			<input type="text" name="titulo" id="titulo" placeholder="Titulo da noticia"/>
+			<br>
+			
+			<label for="resumo">Resumo</label>
+			<input type="text" name="resumo" id="resumo" placeholder="resumo da noticia"/>
 			<br>
 
-			<label for="noticia"></label>
-			<input type="text" name="noticia" id="noticia" placeholder="Titulo da noticia">
+			<label for="autor">Autor</label>
+			<input type="text" name="autor" id="autor" placeholder="autor da noticia"/>
 			<br>
 
-			<input type="submit">
+			<label for="data_noticia">Data noticia</label>
+			<input type="date" name="data_noticia" id="data_noticia"/>
+			<br>
+
+			<label for="noticia">Noticia</label>
+			<textarea  name="noticia" id="noticia" rows="5" cols="30"></textarea>
+			<br>
+
+			<input type="submit" value="Enviar"/>
+
 		</form>
 
 	</body>
